@@ -8,3 +8,7 @@ function increment()
     count++;
     document.getElementById("count-el").innerHTML=count;
 }
+
+function save(){
+    document.getElementById("save-el").textContent += count + " - ";
+}
