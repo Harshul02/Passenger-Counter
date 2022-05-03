@@ -1,13 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-image: url(station.jpg);
+    background-image: url(station1.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
+    position: absolute;
+    /* align-content: center; */
+    top: 30%;
+    left: 45%;
 }
 
 h1{
+    /* top: 50%; */
+    
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -30,4 +41,8 @@ button{
 
 #increment-btn{
     background: darkred;
+}
+
+#save-btn{
+    background-color: green;
 }

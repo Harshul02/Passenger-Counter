@@ -11,4 +11,6 @@ function increment()
 
 function save(){
     document.getElementById("save-el").textContent += count + " - ";
+    count =0;
+    document.getElementById("count-el").textContent=0;
 }
